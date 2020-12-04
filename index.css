@@ -1,1 +1,46 @@
 /* Put your style information here! */
+@media (max-width: 768px) {
+    .main {
+        margin-left: 0 !important;
+        margin-right: 0 !important;        
+    }
+}
+
+body {
+    font-family: 'Dekko', cursive;
+}
+
+
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+h1 {
+    font-size: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.card{
+    background: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    opacity: 0.3;
+}
+
